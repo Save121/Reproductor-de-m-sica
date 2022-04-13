@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+
+#credits{
+	display:none;
+	width:1100px;
+	height:250px;
+	z-index:3;
+	position:relative;
+	margin-top: 5vh;
+	text-align: center;
+	
+}
+.columCredit{
+ color:red;	
+	
+}
+.imagenPrincipal{
+	position:absolute;
+	right:45vw;
+	top:30vh;
+	width:20%;	
+}
+body{
+	
+	background:#fff;
+}
+
+
+
+.separacionIconos{
+	margin-right:25px;
+	margin-left:8px;
+	
+}
+input[type=search]{
+	border-radius: 15px;
+	height:10vh;
+	position:relative;
+	left:-3px;
+	top: -3px;
+	width:75vw;
+	border: 1px solid transparent;
+	font-size: 1.5rem;
+	padding-left: 20px;
+	outline: none;
+}
+
+.header{
+	
+	background-color: rgb(255, 255, 255);
+	height:10vh;
+	border-radius: 15px;
+    /*opacity:0.6;*/
+	border: 2px solid rgb(0, 102, 255);
+	
+}
+
+.iconColor{
+	font-size:35px;
+	color: rgb(0, 102, 255);
+}
+.divFloat{
+	display: none;
+	bottom: 50%;
+	border-radius: 10px;
+}
+.form{
+	
+	width: 500px;
+	height: auto;
+	z-index:3;
+	position:relative;
+	margin: 0 auto;
+	background-color:#fff;
+	box-shadow: 5px 5px 5px 5px rgb(194, 194, 194);
+	padding: 5px;
+}
+#formRegister{
+	display: flex;
+	flex-direction: column;
+	
+}
+#formRegister input[type=text], h3, input[type=button]{
+	width: 80%;
+	margin: 5px auto;
+}
+#formRegister input[type=text]{
+	padding: 10px;
+		border: 2px solid black;
+}
+#formRegister input[type=text]:click{
+	border: 2px solid black;
+}
+#form #formRegister h3{
+	color: #fff;
+	text-align:center;
+	background-color: rgb(0, 102, 255);
+}
+#formRegister input[type=button]{
+	background-color: rgb(0, 102, 255);
+	color: #fff;
+	outline: none;
+	border: 2px solid transparent;
+	padding: 10px;
+	width: 40%;
+	font-size: 1rem;
+	border-radius: 5px;
+}
+#formRegister input[type=button]:hover{
+	background-color: #fff;
+	color: rgb(0, 102, 255);
+	border: 2px solid rgb(0, 102, 255);
+	transition: 0.5s;	
+}
+#divClose{
+	width: 50px;
+	position: absolute;
+	right:10px;
+}
+#closeCredits{
+	width: 50px;
+	position: absolute;
+	right: 10px;
+}
+
+.videoLyrics{
+	width: 100%;
+	height: 500px;
+	z-index: -10;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+}
+.videoLyrics .contentVideo{
+	width: 65%;
+	height: 500px;
+	text-align: center;
+	
+}
+.videoLyrics .contentLyrics{
+	height: 500px;
+	width: 35%;
+	text-align: center;
+	overflow:hidden;
+	overflow-y: scroll;
+}
+ .videoLyrics{
+	display:none;
+}
+.resultSongs{
+	display: none;
+	width: 75%;
+	height: 250px;
+	background-color: #fff;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	overflow: hidden;
+	overflow-y: scroll;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.resultSongs h3{
+	margin-left: 0;
+} 
+
+.resultSongs #listSongs li{
+	margin: 5px 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+#youtubeVideo{
+	width: 700px;
+	height: 350px;
+	position: relative;
+	text-align: center;
+	
+	
+}
+#nameSong{
+	position: relative;
+	top: 0px;
+}
+
+
